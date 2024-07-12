@@ -13,7 +13,7 @@ module.exports = {
         primary: ['VT323', 'mono'],
         heading: ['train one', 'mono'],
         logo: ['bungee outline'],
-        // heading : 
+        large: ['bungee shade']
       },
     },
   },

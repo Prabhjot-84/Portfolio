@@ -5,7 +5,7 @@ import ME from '../assets/image-2.png'
 
 const Home = () => {
     return (
-        <div className='bg-primary h-screen w-full pt-28 text-button flex items-center justify-evenly'>
+        <div id='home' className='bg-primary h-screen w-full pt-28 text-button flex items-center justify-evenly'>
             
             <div className='w-1/2 pl-40'>
                 <div className='text-xl text-hover'> HELLO ! </div>
