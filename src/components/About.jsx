@@ -26,7 +26,7 @@ const About = () => {
                         <h1> &nbsp; : &nbsp;prabhjotsingh1645@gmail.com </h1>
                         <br></br>
                         <h1 className='flex items-center'> &nbsp; : &nbsp;
-                            <a href="https://files.catbox.moe/24wo37.pdf"
+                            <a href="https://files.catbox.moe/i4ct0m.pdf"
                                 className='hover:cursor-pointer flex items-center justify-evenly w-44 bg-button text-primary py-2 px-3 rounded hover:bg-hover hover:text-primary'
                             >
                                 Resume/CV <img src={Redirect} alt='icon' />

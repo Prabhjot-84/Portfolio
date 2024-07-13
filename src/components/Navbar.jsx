@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div onClick={() => scrollToSection('contact')} className='hover:cursor-pointer hover:text-hover p-4 m-4 hover:border-b-hover hover:border-b-2'>
                     Contact
                 </div>
-                <a href="/Prabhjot Singh_Guru Tegh Bahadur Institute of Technology.pdf"
+                <a href="/Prabhjot_Singh_Resume.pdf"
                     download
                     className='hover:cursor-pointer ml-6 py-2 px-4 rounded bg-hover text-primary hover:scale-105 flex items-center justify-evenly'>
                     Resume/CV&nbsp; <img className='w-6' src={Download} alt='icon' />
