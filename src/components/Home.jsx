@@ -10,7 +10,7 @@ const Home = () => {
             <div className='w-1/2 pl-40'>
                 <div className='text-xl text-hover'> HELLO ! </div>
                 <br></br>
-                <div className='text-6xl font-bold'>
+                <div className='text-6xl text-button font-bold'>
                     I'm <span className='text-hover'> Prabhjot Singh </span>
                 </div>
                 <br></br>
@@ -23,7 +23,7 @@ const Home = () => {
                         href="https://www.linkedin.com/in/prabhjot-singh-105b8a24b/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-3 w-40 text-xl mr-6 bg-secondary rounded-lg text-black flex items-center justify-evenly hover:bg-hover hover:font-bold"
+                        className="p-3 w-40 text-xl mr-6 bg-secondary rounded-lg text-primary flex items-center justify-evenly hover:bg-hover hover:font-bold"
                     >
                         <img className='w-7' src={LinkedinLogo} alt='Icon' />
                         LinkedIn
@@ -32,7 +32,7 @@ const Home = () => {
                         href="https://github.com/Prabhjot-84"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-3 w-40 text-xl bg-secondary rounded-lg text-black flex items-center justify-evenly hover:bg-hover hover:font-bold"
+                        className="p-3 w-40 text-xl bg-secondary rounded-lg text-primary flex items-center justify-evenly hover:bg-hover hover:font-bold"
                     >
                         <img className='w-7' src={GithubLogo} alt='Icon' />
                         Github

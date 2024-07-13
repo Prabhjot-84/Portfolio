@@ -1,5 +1,6 @@
 import React from 'react'
 import ProgressBar from './ProgressBar'
+import Redirect from '../assets/redirect.png'
 
 const About = () => {
     return (
@@ -16,7 +17,7 @@ const About = () => {
                         <br></br>
                         <h1> Email </h1>
                         <br></br>
-                        <h1> Download Resume </h1>
+                        <h1> My Resume </h1>
                     </div>
 
                     <div className='text-xl'>
@@ -24,7 +25,13 @@ const About = () => {
                         <br></br>
                         <h1> &nbsp; : &nbsp;prabhjotsingh1645@gmail.com </h1>
                         <br></br>
-                        <h1> &nbsp; : &nbsp;Resume/CV </h1>
+                        <h1 className='flex items-center'> &nbsp; : &nbsp;
+                            <a href="https://files.catbox.moe/24wo37.pdf"
+                                className='hover:cursor-pointer flex items-center justify-evenly w-44 bg-button text-primary py-2 px-3 rounded hover:bg-hover hover:text-primary'
+                            >
+                                Resume/CV <img src={Redirect} alt='icon' />
+                            </a>
+                        </h1>
                     </div>
                 </div>
 
@@ -83,23 +90,23 @@ const About = () => {
                     <h1 className='mt-4 text-xl'> CSS </h1>
                 </div>
                 <div className='flex flex-col items-center '>
-                    <ProgressBar progress={60} />
+                    <ProgressBar progress={65} />
                     <h1 className='mt-4 text-xl'> Javascript </h1>
                 </div>
                 <div className='flex flex-col items-center '>
-                    <ProgressBar progress={70} />
+                    <ProgressBar progress={75} />
                     <h1 className='mt-4 text-xl'> React JS </h1>
                 </div>
                 <div className='flex flex-col items-center '>
-                    <ProgressBar progress={50} />
+                    <ProgressBar progress={60} />
                     <h1 className='mt-4 text-xl'> Node JS </h1>
                 </div>
                 <div className='flex flex-col items-center '>
-                    <ProgressBar progress={70} />
+                    <ProgressBar progress={75} />
                     <h1 className='mt-4 text-xl'> API </h1>
                 </div>
                 <div className='flex flex-col items-center '>
-                    <ProgressBar progress={60} />
+                    <ProgressBar progress={70} />
                     <h1 className='mt-4 text-xl'> Database </h1>
                 </div>
             </div>
